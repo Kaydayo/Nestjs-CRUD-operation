@@ -14,5 +14,3 @@ import { EachItem } from './items.entity';
   providers: [ItemsService],
 })
 export class ItemModule {}
-
-"
