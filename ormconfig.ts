@@ -2,7 +2,7 @@ import { SqliteConnectionOptions } from 'typeorm/driver/sqlite/SqliteConnectionO
 
 const config: SqliteConnectionOptions = {
   type: 'sqlite',
-  database: 'db',
+  database: 'itemdb',
   entities: ['dist/src/**/*.entity.js'],
   synchronize: true,
   migrations: ['dist/src/db/migrations/*.js'],
